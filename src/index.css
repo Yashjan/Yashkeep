@@ -1,0 +1,155 @@
+.deletIcon {
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+.note .btn:hover {
+    background-color: #f5ba13;
+}
+
+.note .btn:hover .deletIcon {
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0%;
+}
+
+.note .btn {
+    border-radius: 50%;
+    box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 1);
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    height: 50px;
+    width: 50px;
+    border: none;
+    color: #f4b400;
+    margin-right: 10px;
+    float: right;
+    position: relative;
+}
+
+.note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 340px;
+    margin: 16px;
+    float: left;
+}
+
+.MuiButton-root:hover .plus-sign {
+    color: #fff;
+    background: transparent;
+}
+
+.MuiButton-root:hover {
+    background: #f4b400 !important;
+}
+
+.MuiButton-root .plus-sign {
+    background: transparent;
+    z-index: 222;
+    cursor: pointer;
+    color: #f4b400;
+    font-weight: 900;
+    font-size: 45px !important;
+}
+
+.MuiButton-root {
+    border-radius: 50% !important;
+    background-color: #fff !important;
+    cursor: pointer;
+    left: 400px;
+    bottom: -28px;
+    position: absolute;
+    height: 50px;
+    width: 30px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 1);
+}
+
+textarea {
+    margin: 10px 0;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    background: transparent;
+    line-height: 30px;
+    width: 100%;
+}
+
+input {
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 1.5em;
+    outline: none;
+    border: none;
+    background: transparent;
+    line-height: 30px;
+    width: 100%;
+}
+
+form {
+    position: relative;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 1);
+    min-height: 50px;
+    color: #ecf0f1;
+    padding: 15px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+.my_notes p {
+    color: grey;
+}
+
+.my_notes h1 {
+    color: #34495e;
+}
+
+.main_note {
+    width: 500px;
+    padding: 15px 10px 5px 10px;
+    margin: 20px auto;
+}
+
+.header {
+    display: flex;
+    background-color: #f5ba13;
+    line-height: 100px;
+    height: 80px;
+    width: 100%;
+    box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 1);
+    color: white;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: start;
+}
+
+.header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
