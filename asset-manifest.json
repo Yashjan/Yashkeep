@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Yashkeep/static/css/main.f05f834b.chunk.css",
+    "main.js": "/Yashkeep/static/js/main.352f1b9b.chunk.js",
+    "main.js.map": "/Yashkeep/static/js/main.352f1b9b.chunk.js.map",
+    "runtime-main.js": "/Yashkeep/static/js/runtime-main.901832bb.js",
+    "runtime-main.js.map": "/Yashkeep/static/js/runtime-main.901832bb.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/Yashkeep/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.fe329d38.chunk.js": "/Yashkeep/static/js/2.fe329d38.chunk.js",
+    "static/js/2.fe329d38.chunk.js.map": "/Yashkeep/static/js/2.fe329d38.chunk.js.map",
+    "index.html": "/Yashkeep/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/Yashkeep/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.f05f834b.chunk.css.map": "/Yashkeep/static/css/main.f05f834b.chunk.css.map",
+    "static/js/2.fe329d38.chunk.js.LICENSE.txt": "/Yashkeep/static/js/2.fe329d38.chunk.js.LICENSE.txt",
+    "static/media/1615478819899 (1).e940f09b.jpg": "/Yashkeep/static/media/1615478819899 (1).e940f09b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.901832bb.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.fe329d38.chunk.js",
+    "static/css/main.f05f834b.chunk.css",
+    "static/js/main.352f1b9b.chunk.js"
+  ]
+}
