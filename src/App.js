@@ -6,16 +6,17 @@ import Note from './Note';
 const App = () => {
   const [additem,setadditem]=useState([])
 
-  const addevent=(note)=>{
+  const addevents=(note)=>{
+    // console.log("I am clicked")
     setadditem((preval)=>{
       return [...preval,note]
     })
   }
-  console.log(additem)
+  // console.log(additem)
 
-  const onsubmits=(id)=>{
+  const deletNote=(id)=>{
     setadditem((old)=>{
-      old.filter((cur,inde)=>{
+      return old.filter((cur,inde)=>{
         return inde !== id;
       })
     })
@@ -25,14 +26,14 @@ const App = () => {
   return (
     <>
     <Header />
-    <Createnotes passnote={addevent} />
+    <Createnotes passnote={addevents} />
     {additem.map((val,index)=>{
       return <Note 
       key={index}
       id={index}  
       title={val.title}
       content={val.content}
-      onsubmit={onsubmits}  />
+      deletItem={deletNote}  />
     
     })}
     <Footer />
